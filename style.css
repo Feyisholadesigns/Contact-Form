@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #9af0eb, #ee2a68);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.contact-form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #006644;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group button:hover {
+    background-color: #004c33;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-form-container {
+        padding: 15px;
+    }
+
+    .form-group label {
+        font-size: 14px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .form-group button {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+
+.form-groupradio{
+    
+    gap: 15px;
+    margin: 8px;
+}
+
+@media screen and (max-width: 400px) {
+    h2 {
+        font-size: 18px;
+    }
+
+    .form-group label {
+        font-size: 12px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .form-group button {
+        padding: 6px;
+        font-size: 12px;
+    }
+}
